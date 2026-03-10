@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "uvx",
+      "args": ["postgres-mcp"],
+      "env": {
+        "DATABASE_URL": "postgresql://demo:demo@localhost:5432/demo"
+      }
+    }
+  }
+}

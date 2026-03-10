@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "aws-serverless": {
+      "command": "uvx",
+      "args": ["awslabs-serverless-mcp-server"],
+      "env": {
+        "AWS_PROFILE": "dev",
+        "AWS_DEFAULT_REGION": "ap-northeast-1"
+      }
+    }
+  }
+}
