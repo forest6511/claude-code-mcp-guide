@@ -99,8 +99,11 @@ server.registerResource(
 // --- Prompt: 天気レポート生成 ---
 server.registerPrompt(
   "weather-report",
-  { description: "指定都市の天気レポートを生成するプロンプト" },
-  async ({ city }: { city?: string }) => ({
+  {
+    description: "指定都市の天気レポートを生成するプロンプト",
+    argsSchema: { city: z.string().optional().describe("都市名（省略可）") },
+  },
+  async ({ city }) => ({
     messages: [
       {
         role: "user" as const,

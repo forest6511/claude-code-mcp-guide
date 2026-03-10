@@ -26,8 +26,6 @@ ch13-custom-python/      # 第13章: カスタムサーバー開発（Python）
 ## 書籍情報
 
 - **タイトル**: Claude Codeで使いこなすMCPサーバー実践ガイド
-- **著者**: 森川 陽介
-- **価格**: ¥980（Kindle Unlimited対応）
 
 ## ライセンス
 
