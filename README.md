@@ -26,6 +26,7 @@ ch13-custom-python/      # 第13章: カスタムサーバー開発（Python）
 ## 書籍情報
 
 - **タイトル**: Claude Codeで使いこなすMCPサーバー実践ガイド
+- **Amazon**: https://www.amazon.co.jp/dp/B0GS3SX5BF
 
 ## ライセンス
 
